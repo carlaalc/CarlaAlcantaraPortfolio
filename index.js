@@ -5,7 +5,7 @@ $(document).ready(function(e){
 	var width = $navbar.width();
 	toggle_onclick($win, $navbar, width);
 
-	//resize event
+	// resize event
 	$win.resize(function(){
 		toggle_onclick($win, $navbar, width);
 	});
@@ -20,22 +20,22 @@ function toggle_onclick($win, $navbar, width){
 	if($win.width() <= 768){
 		$navbar.css({left: `-${width}px`});
 	}else{
-		$navbar.css({left:'0px'});
+		$navbar.css({left: '0px'});
 	}
 }
 
-var typed = new Typed('#typed',{
+var typed = new Typed('#typed' , {
 	strings: [
-	'HTML',
-	'CSS',
-	'JS',
-	'Bootstrap'
+		'HTML',
+		'CSS',
+		'JS',
+		'Bootstrap'
 	],
 	typeSpeed: 50,
 	backSpeed: 50,
 	loop: true
 });
-var typed_2 = new Typed('#typed_2',{
+var typed_2 = new Typed('#typed_2' , {
 	strings: [
 	'designer',
 	'front-end',
@@ -51,8 +51,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor =>{
 		e.preventDefault();
 
 		document.querySelector(this.getAttribute('href')).scrollIntoView({
-			behavior:'smooth'
-		})
+			behavior: 'smooth'
+		});
 	});
-
 });
