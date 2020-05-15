@@ -130,10 +130,9 @@ body
 }
 .linkedin
 {
-  font-size: 40px;
-  z-index: 2;
+  	font-size: 40px;
+  	z-index: 2;
 }
-
 .skill .bars p. .site-content .skill .bars span
 {
 	line-height: 10px;
