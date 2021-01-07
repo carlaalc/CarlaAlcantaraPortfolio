@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport"content="width=device-width, initial-scale=1.0">
@@ -7,10 +7,8 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 	<link rel="stylesheet" href="./style.css">
-	<link rel="icon" href="favicon.png">
+	<link rel="icon" href="./assets/favicon.png">
 </head>
 <body>
 
@@ -20,7 +18,7 @@
 		<div class="col-3 bgcolor-black">
 			<nav class="primary-nav nav-expand-md">
 				<div class="site-title text-center text-light py-5">
-					<img src="001logo-branco.png" alt="logo">
+					<img src="./assets/001logo-branco.png" alt="logo">
 					
 					<p class="description text-uppercase font-os py-2">carla alcantara portfolio</p>
 				</div>
@@ -36,7 +34,12 @@
 		</div>
 	</div>
 	<button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
-
+	<div class="social">
+		<span class="mr-3"><i class="fab fa-facebook-f"></i></span>
+		<span class="mr-3"><i class="fab fa-instagram"></i></span>
+		<span class="mr-3"><i class="fab fa-facebook-f"></i></span>
+		<span class="mr-3"><i class="fab fa-instagram"></i></span>
+	</div>
 </header>
 <!--#header area -->
 
@@ -63,37 +66,31 @@
 					<h1 class="text-uppercase font-staat font-size-34">Sobre mim</h1>
 				</div>
 				<div class="row m-0">
-					
-					<div class="col-sm-11">
-						
+					<div class="col-sm-5">
+						<img src="./assets/about1.jpg" alt="profile-image" class="img-fluid">
+					</div>
+					<div class="col-sm-6">
+						<h6 class="text-uppercase font-os font-size-16 text-muted">Sobre mim</h6>
 						<h5 class="font-ram font-size-20 py-2">Eu sou Carla Alcantara, <span id="typed_2"></span></h5>
 						<p class="font-ram text-black-50 py-2">
-							Minha experiência profissional passa por agências de propaganda, empresas de varejo e jornal. Sou publicitária e designer com grande experiência nos diversos segmentos da comunicação. Meu trabalho de design e web design abrange peças de comunicação como logomarca, naming, folder, banner, website, card digital, material gráfico em geral e posts para mídias sociais. Tenho muita facilidade em me relacionar e grande espírito de equipe, acredito que isso seja um grande diferencial no meu trabalho.
+							Minha experiência profissional passa por agências de propaganda, empresas de varejo e jornal. Sou publicitária e designer com grande experiência nos diversos segmentos da comunicação. Meu trabalho de design e web design abrange peças de comunicação como logomarca, naming, folder, banner, website, card digital, material gráfico em geral e posts para mídias sociais. Tenho muita facilidade em me relacionar e grande espírito de equipe, acredito que isso agrega valor ao meu trabalho.
 						</p>
 						<div class="d-flex flex-row flex-wrap justify-content-between">
 							<div class="d-flex flex-column">
-								<p class="font-ram"><b>Website Portfolio: </b><span class="text-black-50">http://carlaalc.github.io/CarlaAlcantaraPortfolio</span></p>
-								<p class="font-ram"><b>Telefone: </b><span class="text-black-50">(21) 999585448</span></p>
+								<p class="font-ram"><b>Website: </b><span class="text-black-50">www.carlaalcantara.com.br</span></p>
+								<p class="font-ram"><b>Telefone: </b><span class="text-black-50">(21) 999693816</span></p>
 							</div>
 							<div class="d-flex flex-column">
-								<p class="font-ram"><b>E-mail: </b><span class="text-black-50">carlaalcantaradesign@gmail.com</span></p>
-							<div class="linkedin">
-								<a href="https://www.linkedin.com/in/carla-alcantara-79259537" target="_blank"><i class="fab fa-linkedin-in text-muted"></i></a>
-							
-							<div class="curriculo">
-							<a href="page.html" target="_blank"><button class="btn btn-dark text-uppercase mr-3 text-light" role="button">Download CV</button></a>
-							
-							</div>
-							</div>
-						
+								<p class="font-ram"><b>E-mail: </b><span class="text-black-50">carlaalcantara@ca.com.br</span></p>
+								<p class="font-ram"><b>Instagram: </b><span class="text-black-50">@carla.r.s.alcantara</span></p>
 							</div>
 						</div>
-						
+						<a class="btn btn-dark text-uppercase mr-3" href="page.html" target="_blank" role="button">Download CV</a>
+						<!--<button class="btn btn-dark text-uppercase mr-3">Download CV</button>-->
 					</div>
 				</div>
 			</section>
 			<!--#About-->
-
 			<!--Habilidades-->
 			<section class="skill px-4 py-5 bg-light" id="habilidades">
 				<div class="habilidades py-3">
@@ -198,32 +195,37 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-4 pb-4">
-						<img src="destaq01.png" alt="logotipo" class="img-fluid">
+						<img src="./assets/work/destaq01.png" alt="logotipo" class="img-fluid">
 					</div>
 					<div class="col-sm-4 pb-4">
-						<img src="destaq02.png" alt="logotipo" class="img-fluid">
+						<img src="./assets/work/destaq02.png" alt="logotipo" class="img-fluid">
 					</div>
 					<div class="col-sm-4 pb-4">
-						<img src="destaq03.png" alt="logotipo" class="img-fluid">
+						<img src="./assets/work/destaq03.png" alt="logotipo" class="img-fluid">
 					</div>
 					<div class="col-sm-4 pb-4">
-						<img src="destaq04.png" alt="livro" class="img-fluid">
+						<img src="./assets/work/destaq09.png" alt="logotipo" class="img-fluid">
 					</div>
 					<div class="col-sm-4 pb-4">
-						<img src="destaq05.png" alt="folder" class="img-fluid">
+						<img src="./assets/work/destaq08m.png" alt="logotipo" class="img-fluid">
 					</div>
 					<div class="col-sm-4 pb-4">
-						<a href="http://plennatech.com.br" target="_blank"><img src="destaq06.png" alt="website" class="img-fluid"></a>
+						<img src="./assets/work/destaq04.png" alt="capa de livro" class="img-fluid">
 					</div>
 					<div class="col-sm-4 pb-4">
-						<img src="destaq07.png" alt="card digital" class="img-fluid">
+						<img src="./assets/work/destaq05.png" alt="folder" class="img-fluid">
 					</div>
 					<div class="col-sm-4 pb-4">
-						<img src="destaq08.png" alt="midia social" class="img-fluid">
+						<a href="https://www.carlaalcantara.com.br/" target="_blank">
+						<img src="./assets/work/destaq07c.png" alt="site" class="img-fluid">
+						</a>
 					</div>
 					<div class="col-sm-4 pb-4">
-						<img src="destaq09.png" alt="logotipo" class="img-fluid">
+						<a href="https://www.sensumterapias.com.br/" target="_blank">
+						<img src="./assets/work/destaq07b.png" alt="site mobile" class="img-fluid">
+						</a>
 					</div>
+					
 				</div>
 			</section>
 			<!--#work-->
@@ -234,24 +236,45 @@
 						<h5 class="text-uppercase font-os font-size-16 text-muted">Localização</h5>
 					<h1 class="text-uppercase font-staat font-size-34">Contato</h1>
 					<div class="row py-5">
-						<div class="col-sm-8">
+						<div class="col-sm-6">
 							<h6 class="text-uppercase font-ram font-size-16 text-dark">Carla Regina Santos Alcantara</h6>
 							<p class="font-ram font-size-16 text-black-50 pt-3">Telefone: (21) 999585448</p>
 							<p class="font-ram font-size-16 text-black-50">Email: carlaalcantaradesign@gmail.com</p>
-							<p class="font-ram w-50 font-size-16 text-black-50">Endereço: Rua Capitão Resende, 521 bl 1/502 CEP 207080-190 - Rio de Janeiro -  Brasil</p>
+							<p class="font-ram w-50 font-size-16 text-black-50">Endereço: Rua Capitão Resende, 521 bl 1 Apt. 502 - CEP 207080-190 - Rio de Janeiro - RJ - Brasil</p>
+						</div>
+						<div class="col-sm-6 py-4 px-4">
+							<h6 class="text-uppercase font-ram font-size-16">Entre em contato</h6>
+							<form action="" class="py-3">
+								<div class="row">
+									<div class="col">
+										<input type="text" class="form-control" placeholder="Name">
+									</div>
+									<div class="col">
+										<input type="email" class="form-control" placeholder="Email">
+									</div>
+								</div>
+								<textarea name="" id="" cols="30" rows="3" class="form-control my-4" placeholder="Mensagem"></textarea>
+								<button type="submit" class="btn btn-dark">Enviar</button>
+							</form>
 						</div>
 					</div>
 					<div class="row bg-light py-5">
-						<div class="col-sm-6 my-5 text-center">
+						<div class="col-sm-4 my-5 text-center">
 							<h6 class="font-ram font-size-16 text-black-50">&copy2020 Carla Alcantara All rights reserved</h6>
 						</div>
-						<div class="col-sm-6 my-6 text-center">
+						<div class="col-sm-4 my-4 text-center">
 							<div class="footer-title text-light">
 								<a href="#" class="navbar-brand font-staat font-size-40 text-dark">Carla Alcantara</a>
 								<p class="description font-os font-size-16 text-black-50 text-uppercase">Portfolio</p>
 							</div>
 						</div>
-						
+						<div class="col-sm-4 my-5 text-center">
+						<div class="social">
+							<span class="mr-3"><i class="fab fa-linkedin"></i></span>
+							<span class="mr-3"><i class="fab fa-instagram"></i></span>
+							<span class="mr-3"><i class="fab fa-facebook-f"></i></span>
+						</div>
+						</div>
 					</div>
 					</div>
 				</div>
@@ -265,7 +288,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
-<script src="typed.min.js"></script>
-<script src="index.js"></script>
+<script src="./typed.js-master/lib/typed.min.js"></script>
+<script src="./index.js"></script>
 </body>
 </html>
